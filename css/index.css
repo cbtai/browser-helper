@@ -1,12 +1,12 @@
-.helper_cotainer {
+.brower_helper_cotainer {
   background-color: #fff;
   min-width: 300px;
-  .helper_header {
+  .brower_helper_header {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    .helper_header-logo {
+    .brower_helper_header-logo {
       width: 60px;
       height: 60px;
       background-image: url(../images/logo.png);
@@ -15,7 +15,7 @@
       background-repeat: no-repeat;
       background-size: 100% 100%;
     }
-    .helper_header-title {
+    .brower_helper_header-title {
       display: inline-block;
       margin-left: 20px;
       font-size: 25px;
