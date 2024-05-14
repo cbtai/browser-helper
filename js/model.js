@@ -71,10 +71,9 @@ const showModel = (range) => {
   // 获取选中文本的范围的位置
   const rect = range.getBoundingClientRect();
   const scrollTop = window.scrollY || document.documentElement.scrollTop;
-  const scrollLeft = window.scrollX || document.documentElement.scrollLeft;
   modelDom.style.display = "block";
   modelShow = true;
-  const x = rect.left + scrollLeft - modelDom.clientWidth / 2.5;
+  const x = rect.right - modelDom.clientWidth;
   const y = rect.top + scrollTop - modelDom.clientHeight * 1.3; // 设置偏移量
   modelDom.style.left = `${x}px`;
   modelDom.style.top = `${y}px`;

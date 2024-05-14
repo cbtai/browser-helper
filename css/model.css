@@ -16,17 +16,6 @@
     display: grid;
 }
 
-.brower_helper-model_main::after {
-    content: '';
-    position: absolute;
-    bottom: -3px;
-    left: 50%;
-    width: 6px;
-    height: 6px;
-    background-color: #fff;
-    transform: translateX(-50%) rotate(45deg);
-}
-
 .brower_helper-model_item{
     font-size: 12px;
     line-height: 20px;
