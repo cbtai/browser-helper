@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Intelligent Helper",
+  "version": "1.0",
+  "description": "This is a browser intelligent assistant based on a large model",
+  "action":{
+    "default_popup":"html/helper.html",
+    "default_icon":"images/logo.png"
+  }
+}

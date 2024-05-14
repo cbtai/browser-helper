@@ -1,0 +1,26 @@
+.helper_cotainer {
+  background-color: #fff;
+  min-width: 300px;
+  .helper_header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .helper_header-logo {
+      width: 60px;
+      height: 60px;
+      background-image: url(../images/logo.png);
+      background-color: rgb(0, 136, 255);
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .helper_header-title {
+      display: inline-block;
+      margin-left: 20px;
+      font-size: 25px;
+      font-weight: bolder;
+      color: rgb(0, 136, 255);
+    }
+  }
+}
